@@ -10,5 +10,5 @@ services:
       - JUPYTER_ENABLE_LAB=no
       - OPENAI_API_KEY=${OPENAI_API_KEY}
       - SERPAPI_API_KEY=${SERPAPI_API_KEY}
-    volumes: 
-      - .:/home/jovyan/work
+    volumes:
+      - ./notebooks:/home/jovyan/notebooks
