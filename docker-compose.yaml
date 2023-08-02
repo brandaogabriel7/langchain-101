@@ -7,7 +7,7 @@ services:
     ports: 
       - "8888:8888"
     environment: 
-      - JUPYTER_ENABLE_LAB=no
+      - JUPYTER_ENABLE_LAB=yes
       - OPENAI_API_KEY=${OPENAI_API_KEY}
       - SERPAPI_API_KEY=${SERPAPI_API_KEY}
     volumes:
